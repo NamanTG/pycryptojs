@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "pycryptojs"
+version = "1.0.0"
+description = "pycryptodome + CryptoJS-compatible Rijndael for non-standard key sizes"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pycryptodome"]
+
+[project.urls]
+Homepage = "https://github.com/NamanTG/pycryptojs"
